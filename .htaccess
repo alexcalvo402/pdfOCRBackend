@@ -1,0 +1,3 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^persona/?$ persona.php [NC,L]
+RewriteRule ^persona/([0-9]+)/?$ persona.php?persona_id=$1 [NC,L]
